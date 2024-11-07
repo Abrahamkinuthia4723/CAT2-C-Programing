@@ -11,15 +11,13 @@ struct employee {
 
 int main() {
     struct employee emp;
-
-    // Initialize the employee struct
+    
     strcpy(emp.name, "John Doe");
     emp.id = 12345;
     strcpy(emp.department, "Human Resources");
     emp.salary = 55000.50;
     strcpy(emp.email, "john.doe@company.com");
 
-    // Print the values of the fields
     printf("Name: %s\n", emp.name);
     printf("ID: %d\n", emp.id);
     printf("Department: %s\n", emp.department);
